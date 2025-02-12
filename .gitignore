@@ -1,0 +1,30 @@
+# Ignore downloaded datasets
+datasets/
+data/
+*.csv
+*.json
+*.xls
+*.xlsx
+*.parquet
+*.h5
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
